@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Roboto', sans-serif;
+#B7D0BF */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    max-width: 576px;
+}
+header,main{
+    
+    background-color:#B7D0BF;
+}
+
+/* ===header=== */
+header{
+    width: 100%;
+}
+.topBg{
+    background-image: url("../img/profil/topBG.png");
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    padding-bottom: 24px;
+}
+.hutte img{
+    border-radius:50%;
+}
+.name p{
+    color:white;
+}
+/* ===activity=== */
+
+.activity,.bilder,.reisefuhrer,.bewertung{
+    padding:9%;
+}
+.function{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+
+}
+.function div{
+    display: flex; 
+    text-align: center;
+}
+.function div img{
+    padding-right: 10px;
+}
+.info{
+    border-bottom:1px solid;
+}
+.info div{
+    display: flex;
+}
+
+/* ===Bilder=== */
+.bilders{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid;
+}
+
+/* ===reisefuhrer=== */
+.bergtour{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border-bottom:1px solid;
+}
+.bergtour #b{
+    grid-column: 2;
+    grid-row: 1/span2;
+    height: 100%;
+}
+
+/* ===footer Navi=== */
+
+.nav{
+    position: fixed;
+    bottom: 97px;
+    width: 576px;
+    padding:25px;
+    background-color:#2d4535;
+    display: flex;
+    justify-content: space-around;
+}

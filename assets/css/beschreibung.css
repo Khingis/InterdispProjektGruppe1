@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Roboto', sans-serif;
+#B7D0BF */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    max-width: 576px;
+}
+header,main{
+    
+    background-color:#B7D0BF;
+}
+
+/* ===header=== */
+header{
+    width: 100%;
+}
+.topBg{
+    background-image: url("../img/beschreibung/Mask\ \(1\).png");
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+/* ===footer Navi=== */
+
+ .nav{
+    position: fixed;
+    bottom: 97px;
+    width: 576px;
+    padding:25px;
+    background-color:#2d4535;
+    display: flex;
+    justify-content: space-around;
+} 

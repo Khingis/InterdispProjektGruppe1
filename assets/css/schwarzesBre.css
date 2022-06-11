@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Roboto', sans-serif;
+#B7D0BF */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    max-width: 576px;
+}
